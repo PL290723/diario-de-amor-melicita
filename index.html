@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Diario de Amor 💜</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="floating-hearts">
+        <div class="heart">💜</div>
+        <div class="heart">💙</div>
+        <div class="heart">🤍</div>
+        <div class="heart">💜</div>
+        <div class="heart">💙</div>
+    </div>
+    
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <i class="fas fa-heart"></i>
+                    Mi Diario de Amor
+                    <i class="fas fa-heart"></i>
+                </h1>
+                <p class="subtitle">Mensajes especiales cada hora, solo para ti ✨</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="diary-page">
+                <div class="page-header">
+                    <div class="date-time">
+                        <div class="current-date" id="currentDate"></div>
+                        <div class="current-time" id="currentTime"></div>
+                    </div>
+                    <div class="weather-icon">🌸</div>
+                </div>
+
+                <div class="message-container">
+                    <div class="message-bubble">
+                        <div class="message-text" id="loveMessage">
+                            ¡Hola mi amor! Preparando tu mensaje especial...
+                        </div>
+                        <div class="message-time" id="messageTime"></div>
+                    </div>
+                </div>
+
+                <div class="decorative-elements">
+                    <div class="flower left">🌺</div>
+                    <div class="flower right">🌸</div>
+                    <div class="sparkle sparkle-1">✨</div>
+                    <div class="sparkle sparkle-2">💫</div>
+                    <div class="sparkle sparkle-3">⭐</div>
+                </div>
+
+                <div class="love-counter">
+                    <div class="counter-item">
+                        <div class="counter-number" id="daysCounter">0</div>
+                        <div class="counter-label">Días juntos</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-number" id="hoursCounter">0</div>
+                        <div class="counter-label">Horas de amor</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-number" id="messagesCounter">1</div>
+                        <div class="counter-label">Mensajes de amor</div>
+                    </div>
+                </div>
+
+                <div class="next-message-info">
+                    <p>💜 Próximo mensaje en: <span id="nextMessageTime"></span></p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Hecho con 💜 especialmente para ti</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
